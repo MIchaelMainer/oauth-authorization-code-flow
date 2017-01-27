@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/data', 'DataController@showUserInfo');
+Route::get('/login', 'LoginController@login');
 Route::get('/setLogin', 'LoginController@setLogin');
