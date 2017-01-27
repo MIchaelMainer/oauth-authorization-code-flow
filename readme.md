@@ -7,11 +7,12 @@ Quick example of how to connect to Microsoft's services using the authorization 
 
 1. Register a new app with Microsoft at https://apps.dev.microsoft.com
 2. Click "Generate new password" to create an application secret (client secret) and copy it to the clipboard
-3. Hit "Save"
-4. Paste the application secret into the [LoginController](https://github.com/cbales/oauth-authorization-code-flow/blob/master/app/Http/Controllers/LoginController.php)
-5. Insert your client ID (application ID)
-6. Run ```composer install``` to install PHP packages
-7. Run ```php artisan serve``` to start the server!
+3. Click "Add Platform" and select "Web". Then, enter the redirect URI (in this example, http://localhost:8000/login)
+4. Hit "Save"
+5. Paste the application secret into the [LoginController](https://github.com/cbales/oauth-authorization-code-flow/blob/master/app/Http/Controllers/LoginController.php)
+6. Insert your client ID (application ID)
+7. Run ```composer install``` to install PHP packages
+8. Run ```php artisan serve``` to start the server!
 
 
 ## Next Steps
